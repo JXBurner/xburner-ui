@@ -1,14 +1,14 @@
 <!--
  * @Author: jinx
  * @Date: 2021-12-01 17:15:54
- * @LastEditTime: 2021-12-01 20:45:41
+ * @LastEditTime: 2021-12-01 20:49:06
  * @LastEditors: jinx
  * @Description: readme
  * @FilePath: /xburner-ui/README.md
 -->
 
 <div align="center">
-  <img alt="logo" src="./example/assets/images/compoent.png" width="120" height="120" style="margin-bottom: 10px;">
+  <img alt="logo" src="@/assets/images/compoent.png" width="120" height="120" style="margin-bottom: 10px;">
   <h2 align="center">DEViewUI</h2>
   <h3 align="center">UI组件库</h3>
   <h4 align="center" style="margin: 20px">基于Element UI Vant封装帮助快速开发表单、表格组件</h4>
@@ -67,7 +67,7 @@ DEViewUI接受一个参数platform代表平台类型，通过 Vue.use 方法传�
 
 # 组件架构
 ## 包架构说明
-![IMAGE](./example/assets/images/image.png)
+![IMAGE](@/assets/images/image.png)
 
 <!-- * 入口文件 ——  /  index.js文件 -->
 * config —— 常量目录
