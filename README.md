@@ -1,7 +1,7 @@
 <!--
  * @Author: jinx
  * @Date: 2021-12-01 17:15:54
- * @LastEditTime: 2021-12-01 18:30:45
+ * @LastEditTime: 2021-12-01 20:45:41
  * @LastEditors: jinx
  * @Description: readme
  * @FilePath: /xburner-ui/README.md
@@ -44,7 +44,7 @@ Vue.use(inputCreate, {
   DEViewUI: DEViewUI.init('平台名称')
 })
 
-// 工单平台案例
+// 案例
 Vue.use(inputCreate, {
   request: { request, requestGet },
   platform: 'web',
