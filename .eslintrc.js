@@ -1,7 +1,7 @@
 /*
  * @Author: jinx
  * @Date: 2021-12-01 15:39:14
- * @LastEditTime: 2021-12-01 15:51:33
+ * @LastEditTime: 2021-12-01 16:10:15
  * @LastEditors: jinx
  * @Description:
  * @path: 
@@ -13,9 +13,9 @@ module.exports = {
     node: true,
     es6: true,
   },
-  'extends': [
-    'plugin:vue/essential',
-    '@vue/standard'
+  extends: [
+    "eslint:recommended",
+    "plugin:vue/recommended"
   ],
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',

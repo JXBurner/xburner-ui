@@ -2,9 +2,9 @@
  * @Author: jinx
  * @Date: 2021-12-01 11:32:39
  * @LastEditors: jinx
- * @LastEditTime: 2021-12-01 15:12:55
- * @Descripttion: 
- * @path: 
+ * @LastEditTime: 2021-12-01 16:08:06
+ * @Descripttion:
+ * @path:
  */
 const path = require('path')
 
