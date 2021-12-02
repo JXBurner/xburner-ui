@@ -1,7 +1,7 @@
 <!--
  * @Author: jinx
  * @Date: 2021-12-01 18:04:02
- * @LastEditTime: 2021-12-01 18:24:45
+ * @LastEditTime: 2021-12-02 16:40:17
  * @LastEditors: jinx
  * @Description:
  * @FilePath: /xburner-ui/packages/uiComponents/web/base/LdInput/index.vue
@@ -25,7 +25,7 @@
 </template>
 
 <script>
-  import { filterNull, filterFloatNumber } from '../../../../utils/filters'
+  import { filterNull, filterFloatNumber } from '../../../utils/filters'
   export default {
     name: 'LdWInput',
     props: {

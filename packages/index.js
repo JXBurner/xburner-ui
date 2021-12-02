@@ -1,18 +1,16 @@
 /*
  * @Author: jinx
  * @Date: 2021-12-01 17:40:05
- * @LastEditTime: 2021-12-02 14:15:40
+ * @LastEditTime: 2021-12-02 16:38:27
  * @LastEditors: jinx
  * @Description: 入口文件
  * @FilePath: /xburner-ui/index.js
  */
 // 插件的功能方法写在install方法里。因为install内的this指向的是plugin对象自身，扩展性更好。
-// import mobile from  './platform/mobile'
-import web from  './platform/web'
+import elementuiComps from './elementui'
 // 默认全局注册组件列表
 const components = [
-  ...web,
-  // ...mobile
+  ...elementuiComps,
 ]
 
 const install = function(Vue) {
