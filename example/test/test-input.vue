@@ -2,7 +2,7 @@
  * @Author: jinx
  * @Date: 2021-12-01 11:30:57
  * @LastEditors: jinx
- * @LastEditTime: 2021-12-01 20:41:32
+ * @LastEditTime: 2021-12-02 11:42:53
  * @Descripttion: 
  * @path: 
 -->
@@ -15,12 +15,10 @@
 </template>
 
 <script>
-import LdWInput from '../../packages/uiComponents/web/base/LdInput/index'
 
 export default {
   name: 'TestInput',
   components: {
-    LdWInput
   },
   data() {
     return {
