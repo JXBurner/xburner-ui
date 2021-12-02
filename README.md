@@ -1,15 +1,6 @@
-<!--
- * @Author: jinx
- * @Date: 2021-12-01 17:15:54
- * @LastEditTime: 2021-12-01 20:49:06
- * @LastEditors: jinx
- * @Description: readme
- * @FilePath: /xburner-ui/README.md
--->
-
 <div align="center">
   <img alt="logo" src="@/assets/images/compoent.png" width="120" height="120" style="margin-bottom: 10px;">
-  <h2 align="center">DEViewUI</h2>
+  <h2 align="center">deview-ui</h2>
   <h3 align="center">UI组件库</h3>
   <h4 align="center" style="margin: 20px">基于Element UI Vant封装帮助快速开发表单、表格组件</h4>
 
@@ -30,14 +21,14 @@
 ## 安装
 
 ``` javascript
-npm install DEViewUI | npm install DEViewUI@版本号
+npm install deview-ui | npm install deview-ui@版本号
 ```
 
 ## 引入
 
 ``` javascript
 
-import DEViewUI from 'DEViewUI'
+import DEViewUI from 'deview-ui'
 Vue.use(inputCreate, {
   request: { request, requestGet },
   platform: '平台名称', // 需要引入的平台 web/mobile

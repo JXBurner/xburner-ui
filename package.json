@@ -1,6 +1,6 @@
 {
-  "name": "DEViewUI",
-  "version": "0.1.0",
+  "name": "deview-ui",
+  "version": "0.1.0-Beta",
   "private": false,
   "main": "lib/index.common.js",
   "repository": "git@github.com:JXBurner/xburner-ui.git",
