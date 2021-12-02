@@ -1,7 +1,7 @@
 /*
  * @Author: jinx
  * @Date: 2021-12-01 17:40:05
- * @LastEditTime: 2021-12-02 11:44:23
+ * @LastEditTime: 2021-12-02 14:15:40
  * @LastEditors: jinx
  * @Description: 入口文件
  * @FilePath: /xburner-ui/index.js
@@ -11,8 +11,8 @@
 import web from  './platform/web'
 // 默认全局注册组件列表
 const components = [
-  web
-  // mobile
+  ...web,
+  // ...mobile
 ]
 
 const install = function(Vue) {
