@@ -15,7 +15,6 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
-    "@storybook/addon-notes": "^5.3.21",
     "core-js": "^3.6.5",
     "vue": "^2.6.11"
   },
@@ -24,6 +23,7 @@
     "@storybook/addon-actions": "^6.4.4",
     "@storybook/addon-essentials": "^6.4.4",
     "@storybook/addon-links": "^6.4.4",
+    "@storybook/addon-notes": "^5.3.21",
     "@storybook/vue": "^6.4.4",
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",

@@ -1,4 +1,12 @@
-import MyHeader from '../packages/components/header/Header.vue';
+/*
+ * @Author: jinx
+ * @Date: 2021-12-02 17:04:46
+ * @LastEditors: jinx
+ * @LastEditTime: 2021-12-02 21:47:39
+ * @Descripttion: 
+ * @path: 
+ */
+import MyHeader from '../../packages/components/header/Header.vue';
 
 export default {
   title: 'Basic/Header',

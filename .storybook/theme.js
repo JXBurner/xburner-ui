@@ -2,13 +2,11 @@
  * @Author: jinx
  * @Date: 2021-12-02 18:13:31
  * @LastEditors: jinx
- * @LastEditTime: 2021-12-02 18:15:06
+ * @LastEditTime: 2021-12-02 21:25:06
  * @Descripttion: 自定义标题
  * @path: /xburner-ui/.storybook/theme.js
  */
-import {
-  create
-} from '@storybook/theming';
+import { create } from '@storybook/theming';
 
 export default create({
   base: 'light',

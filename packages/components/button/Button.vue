@@ -1,3 +1,11 @@
+<!--
+ * @Author: jinx
+ * @Date: 2021-12-02 17:04:46
+ * @LastEditors: jinx
+ * @LastEditTime: 2021-12-03 09:49:28
+ * @Descripttion: 
+ * @path: 
+-->
 <template>
   <button
     type="button"
@@ -33,6 +41,7 @@ export default {
     },
     backgroundColor: {
       type: String,
+      default: ''
     },
   },
 
@@ -54,7 +63,7 @@ export default {
 
   methods: {
     onClick() {
-      this.$emit('onClick');
+      this.$emit('onClick', this.label);
     },
   },
 };

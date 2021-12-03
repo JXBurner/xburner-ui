@@ -1,4 +1,12 @@
-import MyPage from '../packages/components/page/Page.vue';
+/*
+ * @Author: jinx
+ * @Date: 2021-12-02 17:04:46
+ * @LastEditors: jinx
+ * @LastEditTime: 2021-12-02 21:47:46
+ * @Descripttion: 
+ * @path: 
+ */
+import MyPage from '../../packages/components/page/Page.vue';
 import * as HeaderStories from './Header.stories';
 
 export default {
