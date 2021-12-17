@@ -2,11 +2,11 @@
  * @Author: jinx
  * @Date: 2021-12-02 17:04:46
  * @LastEditors: jinx
- * @LastEditTime: 2021-12-02 21:47:39
+ * @LastEditTime: 2021-12-03 11:22:25
  * @Descripttion: 
- * @path: 
+ * @path: /xburner-ui/stories/componentsStorise/header/Header.stories.js
  */
-import MyHeader from '../../packages/components/header/Header.vue';
+import MyHeader from '../../../packages/components/header/Header.vue';
 
 export default {
   title: 'Basic/Header',

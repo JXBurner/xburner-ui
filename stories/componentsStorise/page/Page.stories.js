@@ -2,12 +2,12 @@
  * @Author: jinx
  * @Date: 2021-12-02 17:04:46
  * @LastEditors: jinx
- * @LastEditTime: 2021-12-02 21:47:46
+ * @LastEditTime: 2021-12-03 11:21:11
  * @Descripttion: 
- * @path: 
+ * @path: /xburner-ui/stories/componentsStorise/page/Page.stories.js
  */
-import MyPage from '../../packages/components/page/Page.vue';
-import * as HeaderStories from './Header.stories';
+import MyPage from '../../../packages/components/page/Page.vue';
+import * as HeaderStories from '../header/Header.stories';
 
 export default {
   title: 'Basic/Page',

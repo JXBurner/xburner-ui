@@ -1,0 +1,85 @@
+import MyButton from '../../../packages/components/button/Button.vue';
+import { Meta, Story, Canvas, Description } from '@storybook/addon-docs';
+import buttonReadme from '../../../packages/components/button/buttonReadme.md' // 引入markdown文件
+
+<Meta
+  title="Basic/Button"
+  component={MyButton} 
+  argTypes={{
+    backgroundColor: { 
+      control: 'color',
+      table: {
+        category: 'Colors',
+      },
+    },
+    // Assigns the argType to the Text category
+    label: {
+      table: {
+        category: 'Text',
+      },
+    },
+    // Assigns the argType to the Events category
+    onClick: {
+      table: {
+        category: 'Events',
+      },
+    },
+    size: {
+      control: { type: 'select' },
+      options: ['small', 'medium', 'large'],
+    },
+  }}
+/>
+
+export const Template = (args, { argTypes }) => ({
+  props: Object.keys(argTypes),
+  components: { MyButton },
+  template: '<my-button @onClick="onClick" v-bind="$props" />'
+});
+
+# MyButton
+
+Let's define a story for our `MyButton` component:
+<Story 
+  name="primary"
+  args={{
+    primary: true,
+    label: 'Button',
+  }}>
+  {Template.bind({})}
+</Story>
+
+We can even preview multiple Stories in a block. This
+gets rendered as a group but defines individual stories
+with unique URLs, which is great for review and testing.
+
+<Canvas>
+  <Story 
+    name="small"
+    args={{
+      size: 'small',
+      label: 'Button',
+    }}>
+    {Template.bind({})}
+  </Story>
+  
+  <Story 
+    name="Secondary"
+    args={{
+      size: 'medium',
+      label: 'Button',
+    }}>
+    {Template.bind({})}
+  </Story>
+  
+  <Story 
+    name="large"
+    args={{
+      size: 'large',
+      label: 'Button',
+    }}>
+    {Template.bind({})}
+  </Story>
+</Canvas>
+
+<Description of={Button} />

@@ -1,3 +1,11 @@
+/*
+ * @Author: jinx
+ * @Date: 2021-12-03 09:56:50
+ * @LastEditors: jinx
+ * @LastEditTime: 2021-12-17 17:36:54
+ * @Descripttion: 
+ * @path: 
+ */
 const path = require("path");
 module.exports = { // 入口文件，配置插件，webpack等
   "stories": [
